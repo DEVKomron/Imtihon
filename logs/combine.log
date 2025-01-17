@@ -1,0 +1,1253 @@
+2025-01-16T13:03:25.276Z  error: uncaughtException: The argument 'id' must be a non-empty string. Received ''
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at new NodeError (node:internal/errors:405:5)
+    at Module.require (node:internal/modules/cjs/loader:1226:11)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/seller.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-01-16T13:03:26.486Z  error: uncaughtException: sequelize.define is not a function
+TypeError: sequelize.define is not a function
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/seller.js:5:26)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-16T13:03:28.630Z  error: uncaughtException: sequelize.define is not a function
+TypeError: sequelize.define is not a function
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/seller.js:5:26)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-16T13:03:36.316Z  error: uncaughtException: sequelize.define is not a function
+TypeError: sequelize.define is not a function
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/seller.js:5:26)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-16T13:03:38.493Z  error: uncaughtException: Cannot find module '../config/'
+Require stack:
+- /home/komron/Desktop/Imtihon/models/seller.js
+- /home/komron/Desktop/Imtihon/models/index.js
+- /home/komron/Desktop/Imtihon/controller/order.controller.js
+- /home/komron/Desktop/Imtihon/router/Order.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+Error: Cannot find module '../config/'
+Require stack:
+- /home/komron/Desktop/Imtihon/models/seller.js
+- /home/komron/Desktop/Imtihon/models/index.js
+- /home/komron/Desktop/Imtihon/controller/order.controller.js
+- /home/komron/Desktop/Imtihon/router/Order.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/seller.js:2:19)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-01-16T14:27:21.649Z  error: Buyurtma topilmadi
+2025-01-17T09:10:40.504Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:11:28.379Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:12:52.189Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:13:16.263Z  error: Mahsulot topilmadi
+2025-01-17T09:13:45.074Z  error: Mahsulot topilmadi
+2025-01-17T09:18:55.523Z  error: "product_id" is not allowed
+2025-01-17T09:19:45.403Z  error: uncaughtException: Identifier 'Joi' has already been declared
+/home/komron/Desktop/Imtihon/controller/order.controller.js:6
+const Joi = require('joi');
+      ^
+
+SyntaxError: Identifier 'Joi' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Order.routes.js:1:53)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:19:51.702Z  error: uncaughtException: Identifier 'Joi' has already been declared
+/home/komron/Desktop/Imtihon/controller/order.controller.js:6
+const Joi = require('joi');
+      ^
+
+SyntaxError: Identifier 'Joi' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Order.routes.js:1:53)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:20:05.910Z  error: uncaughtException: Identifier 'Joi' has already been declared
+/home/komron/Desktop/Imtihon/controller/order.controller.js:6
+const Joi = require('joi');
+      ^
+
+SyntaxError: Identifier 'Joi' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Order.routes.js:1:53)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:20:12.269Z  error: uncaughtException: Identifier 'Joi' has already been declared
+/home/komron/Desktop/Imtihon/controller/order.controller.js:6
+const Joi = require('joi');
+      ^
+
+SyntaxError: Identifier 'Joi' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Order.routes.js:1:53)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:21:26.069Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:21:42.779Z  error: "product_id" is not allowed
+2025-01-17T09:23:40.609Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:23:50.974Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:23:54.572Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:23:58.668Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:24:08.205Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:24:16.321Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:24:19.723Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:24:24.582Z  error: uncaughtException: Unexpected end of input
+/home/komron/Desktop/Imtihon/models/order.js:40
+module.exports = 
+                 
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:24:26.379Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:25:24.415Z  error: uncaughtException: sequelize is not defined
+ReferenceError: sequelize is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T09:27:09.747Z  error: uncaughtException: Unexpected identifier
+/home/komron/Desktop/Imtihon/models/order.js:32
+            model: 'Product', hi kerak)
+                                 ^^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:32:56.682Z  error: uncaughtException: Cannot find module './Customer'
+Require stack:
+- /home/komron/Desktop/Imtihon/models/order.js
+- /home/komron/Desktop/Imtihon/models/index.js
+- /home/komron/Desktop/Imtihon/controller/contract.controller.js
+- /home/komron/Desktop/Imtihon/router/Contract.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+Error: Cannot find module './Customer'
+Require stack:
+- /home/komron/Desktop/Imtihon/models/order.js
+- /home/komron/Desktop/Imtihon/models/index.js
+- /home/komron/Desktop/Imtihon/controller/contract.controller.js
+- /home/komron/Desktop/Imtihon/router/Contract.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/order.js:3:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-01-17T09:33:09.880Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:11.446Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:15.313Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./inse);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:16.397Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./insex);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:18.395Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./ins);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:19.723Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./inde);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:21.157Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:25.745Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:28.690Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:34.792Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:41.084Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:33:49.095Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:36:57.251Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T09:54:57.705Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T10:51:50.538Z  error: uncaughtException: Invalid or unexpected token
+/home/komron/Desktop/Imtihon/models/order.js:3
+const Customer = require('./index);  // Mijoz modelini import qilish
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:6:15)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:07.793Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:24.754Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/order.controller.js:3:56)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:27.785Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:29.358Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/order.controller.js:3:56)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:32.423Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/order.controller.js:3:56)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:35.918Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/order.controller.js:3:56)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:38.288Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:40.907Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:43.570Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:46.373Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:48.924Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:50.399Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:53.429Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:56.331Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:05:58.791Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:02.982Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:07.140Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:08.099Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:10.504Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:11.451Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:14.095Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:17.462Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:19.891Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:29.878Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:06:45.606Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/order.controller.js:3:56)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:07:09.936Z  error: uncaughtException: Contractrouter is not defined
+ReferenceError: Contractrouter is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:13:29)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T11:07:15.717Z  error: uncaughtException: Contractrouter is not defined
+ReferenceError: Contractrouter is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:13:29)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T11:08:00.762Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:10:04.873Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/order.controller.js:3:56)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:12:58.578Z  error: uncaughtException: Unexpected end of input
+/home/komron/Desktop/Imtihon/models/contract.js:59
+  module.exports=
+                 
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:00.067Z  error: uncaughtException: Unexpected end of input
+/home/komron/Desktop/Imtihon/models/contract.js:59
+  module.exports = 
+                   
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:04.132Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:11.931Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:29.943Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:31.234Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:39.041Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:44.615Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:13:46.271Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:05.849Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:18.256Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:22.848Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:43.215Z  error: uncaughtException: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+Error: Seller.hasMany called with something that's not a subclass of Sequelize.Model
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:13:13)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:26:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/contract.js:1:22)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:45.241Z  error: uncaughtException: Unexpected token '('
+/home/komron/Desktop/Imtihon/models/contract.js:3
+const  (sequelize, DataTypes) => {
+       ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:50.327Z  error: uncaughtException: Missing initializer in const declaration
+/home/komron/Desktop/Imtihon/models/contract.js:3
+const Cons (sequelize, DataTypes) => {
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:56.810Z  error: uncaughtException: Missing initializer in const declaration
+/home/komron/Desktop/Imtihon/models/contract.js:3
+const Contact (sequelize, DataTypes) => {
+      ^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:14:58.088Z  error: uncaughtException: Identifier 'Contract' has already been declared
+/home/komron/Desktop/Imtihon/models/contract.js:3
+const Contract (sequelize, DataTypes) => {
+      ^
+
+SyntaxError: Identifier 'Contract' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:15:00.014Z  error: uncaughtException: Identifier 'Contract' has already been declared
+/home/komron/Desktop/Imtihon/models/contract.js:3
+const Contract =  (sequelize, DataTypes) => {
+      ^
+
+SyntaxError: Identifier 'Contract' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:15:16.035Z  error: uncaughtException: Identifier 'Contract' has already been declared
+/home/komron/Desktop/Imtihon/models/contract.js:3
+    const Contract = sequelize.define('Contract', {
+          ^
+
+SyntaxError: Identifier 'Contract' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:15:20.570Z  error: uncaughtException: Identifier 'Contract' has already been declared
+/home/komron/Desktop/Imtihon/models/contract.js:3
+const Contract = sequelize.define('Contract', {
+      ^
+
+SyntaxError: Identifier 'Contract' has already been declared
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:15:33.678Z  error: uncaughtException: Unexpected token '}'
+/home/komron/Desktop/Imtihon/models/contract.js:57
+  };
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/contract.controller.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-17T11:21:25.228Z  error: uncaughtException: Contractrouter is not defined
+ReferenceError: Contractrouter is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:13:29)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T11:21:33.573Z  error: uncaughtException: Customerouter is not defined
+ReferenceError: Customerouter is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:14:29)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T11:21:35.032Z  error: uncaughtException: Contractrouter is not defined
+ReferenceError: Contractrouter is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:13:29)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T11:33:34.729Z  error: uncaughtException: logoutCustomer is not defined
+ReferenceError: logoutCustomer is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/customer.controller.js:111:5)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Customer.routes.js:6:9)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-17T11:41:10.908Z  error: uncaughtException: OrderRouter is not defined
+ReferenceError: OrderRouter is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)

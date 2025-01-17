@@ -1,0 +1,44 @@
+2025-01-16T11:25:53.987Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-16T11:55:40.214Z  error: WHERE parameter "email" has invalid "undefined" value
+2025-01-16T12:01:51.169Z  error: id is not defined
+2025-01-16T12:24:13.504Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:25:04.192Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:25:07.122Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:28:07.934Z  error: Seller is not defined
+2025-01-16T12:29:48.834Z  error: id is not defined
+2025-01-16T12:31:14.697Z  error: id is not defined
+2025-01-16T12:31:45.808Z  error: id is not defined
+2025-01-16T12:32:49.913Z  error: id is not defined
+2025-01-16T12:35:03.275Z  error: id is not defined
+2025-01-16T12:35:33.896Z  error: Cannot access 'order' before initialization
+2025-01-16T12:37:10.607Z  error: Cannot access 'order' before initialization
+2025-01-16T12:46:09.791Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:49:03.160Z  error: "id" is required
+2025-01-16T12:49:13.362Z  error: Cannot set headers after they are sent to the client
+2025-01-16T12:49:13.365Z  error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:405:5)
+    at ServerResponse.setHeader (node:_http_outgoing:655:11)
+    at ServerResponse.header (/home/komron/Desktop/Imtihon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/home/komron/Desktop/Imtihon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/home/komron/Desktop/Imtihon/node_modules/express/lib/response.js:278:15)
+    at ServerResponse.send (/home/komron/Desktop/Imtihon/node_modules/express/lib/response.js:162:21)
+    at errorHandler (/home/komron/Desktop/Imtihon/helpers/error_handler.js:5:26)
+    at createOrder (/home/komron/Desktop/Imtihon/controller/order.controller.js:121:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-16T12:50:50.443Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:53:42.917Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:54:23.777Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:57:31.141Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T12:58:33.445Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T13:00:45.871Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-16T14:27:21.649Z  error: Buyurtma topilmadi
+2025-01-17T09:10:40.504Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:11:28.379Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:12:52.189Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:13:16.263Z  error: Mahsulot topilmadi
+2025-01-17T09:13:45.074Z  error: Mahsulot topilmadi
+2025-01-17T09:18:55.523Z  error: "product_id" is not allowed
+2025-01-17T09:21:26.069Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
+2025-01-17T09:21:42.779Z  error: "product_id" is not allowed

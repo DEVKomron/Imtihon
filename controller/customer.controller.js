@@ -11,7 +11,7 @@ const registerCustomer = async (req, res) => {
         // Email mavjudligini tekshirish
         const existingCustomer = await Customer.findOne({ where: { email } });
         if (existingCustomer) {
-            return res.status(400).json({ message: 'Email allaqachon ro\'yxatdan o\'tgan' });
+            return res.status(400).send({ message: 'Email allaqachon ro\'yxatdan o\'tgan' });
         }
 
         // Parolni xesh qilish
@@ -27,7 +27,7 @@ const registerCustomer = async (req, res) => {
             password: hashedPassword
         });
 
-        res.status(201).json({
+        res.status(201).send({
             message: 'Mijoz muvaffaqiyatli ro\'yxatdan o\'tdi',
             customer
         });
@@ -42,18 +42,18 @@ const loginCustomer = async (req, res) => {
 
         const customer = await Customer.findOne({ where: { email } });
         if (!customer) {
-            return res.status(404).json({ message: 'Email yoki parol xato' });
+            return res.status(404).send({ message: 'Email yoki parol xato' });
         }
 
         const isPasswordValid = await bcrypt.compare(password, customer.password);
         if (!isPasswordValid) {
-            return res.status(400).json({ message: 'Email yoki parol xato' });
+            return res.status(400).send({ message: 'Email yoki parol xato' });
         }
 
         const token = jwt.sign({ id: customer.id }, config.JWT_SECRET, { expiresIn: '1h' });
         const refreshToken = jwt.sign({ id: customer.id }, config.JWT_REFRESH_SECRET, { expiresIn: '7d' });
 
-        res.json({
+        res.send({
             message: 'Login muvaffaqiyatli bajarildi',
             token,
             refreshToken
@@ -68,16 +68,16 @@ const refreshToken = (req, res) => {
         const { token } = req.body;
 
         if (!token) {
-            return res.status(400).json({ message: 'Token talab qilinadi' });
+            return res.status(400).send({ message: 'Token talab qilinadi' });
         }
 
         jwt.verify(token, config.JWT_REFRESH_SECRET, (err, decoded) => {
             if (err) {
-                return res.status(403).json({ message: 'Noto\'g\'ri yoki muddati o\'tgan token' });
+                return res.status(403).send({ message: 'Noto\'g\'ri yoki muddati o\'tgan token' });
             }
 
             const newToken = jwt.sign({ id: decoded.id }, config.JWT_SECRET, { expiresIn: '1h' });
-            res.json({ token: newToken });
+            res.send({ token: newToken });
         });
     } catch (error) {
         errorHandler(error, res);
@@ -86,7 +86,7 @@ const refreshToken = (req, res) => {
 const getAllCustomers = async (req, res) => {
     try {
         const customers = await Customer.findAll();
-        res.json(customers);
+        res.send(customers);
     } catch (error) {
         errorHandler(error, res)     
     }
@@ -96,9 +96,9 @@ const getCustomerById = async (req, res) => {
     try {
         const customer = await Customer.findByPk(req.params.id);
         if (!customer) {
-            return res.status(404).json({ message: 'Mijoz topilmadi' });
+            return res.status(404).send({ message: 'Mijoz topilmadi' });
         }
-        res.json(customer);
+        res.send(customer);
     } catch (error) {
         errorHandler(error, res)
     }

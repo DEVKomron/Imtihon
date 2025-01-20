@@ -35,7 +35,7 @@ const createContract = async (req, res) => {
             OrderId
         });
 
-        res.status(201).json({
+        res.status(201).send({
             message: 'Shartnoma muvaffaqiyatli yaratildi',
             contract
         });
@@ -52,7 +52,7 @@ const getAllContracts = async (req, res) => {
                 include:[Seller]
             }
         );
-        res.json(contracts);
+        res.send(contracts);
     } catch (error) {
         errorHandler(error, res);
     }
@@ -63,9 +63,9 @@ const getContractById = async (req, res) => {
     try {
         const contract = await Contract.findByPk(req.params.id);
         if (!contract) {
-            return res.status(404).json({ message: 'Shartnoma topilmadi' });
+            return res.status(404).send({ message: 'Shartnoma topilmadi' });
         }
-        res.json(contract);
+        res.send(contract);
     } catch (error) {
         errorHandler(error, res);
     }
@@ -92,7 +92,7 @@ const updateContract = async (req, res) => {
 
         const contract = await Contract.findByPk(id);
         if (!contract) {
-            return res.status(404).json({ message: 'Shartnoma topilmadi' });
+            return res.status(404).send({ message: 'Shartnoma topilmadi' });
         }
 
         await contract.update({
@@ -110,7 +110,7 @@ const updateContract = async (req, res) => {
             OrderId
         });
 
-        res.json({
+        res.send({
             message: 'Shartnoma muvaffaqiyatli yangilandi',
             contract
         });
@@ -126,11 +126,11 @@ const deleteContract = async (req, res) => {
 
         const contract = await Contract.findByPk(id);
         if (!contract) {
-            return res.status(404).json({ message: 'Shartnoma topilmadi' });
+            return res.status(404).send({ message: 'Shartnoma topilmadi' });
         }
 
         await contract.destroy();
-        res.json({ message: 'Shartnoma muvaffaqiyatli o‘chirildi' });
+        res.send({ message: 'Shartnoma muvaffaqiyatli o‘chirildi' });
     } catch (error) {
         errorHandler(error, res);
     }

@@ -1,5 +1,6 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/db');
+const Product = require('./product'); // Product modelini import qilish
 
 const ProductDetail = sequelize.define('ProductDetail', {
     id: {
@@ -31,12 +32,21 @@ const ProductDetail = sequelize.define('ProductDetail', {
     category: {
         type: DataTypes.STRING
     },
+    product_id: { // Productga bog'lanish
+        type: DataTypes.INTEGER,
+        references: {
+            model: Product,
+            key: 'id'
+        },
+        allowNull: false // Bu maydonni majburiy qilish
+    },
     created_at: {
         type: DataTypes.DATE,
         defaultValue: DataTypes.NOW
     }
 },{
-    freezeTableName :true
-  });
+    freezeTableName: true,
+    timestamps: true
+});
 
 module.exports = ProductDetail;

@@ -42,3 +42,38 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
 2025-01-17T09:18:55.523Z  error: "product_id" is not allowed
 2025-01-17T09:21:26.069Z  error: insert or update on table "Order" violates foreign key constraint "Order_seller_id_fkey"
 2025-01-17T09:21:42.779Z  error: "product_id" is not allowed
+2025-01-18T12:40:38.361Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:43:39.948Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:43:47.003Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:46:22.822Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:47:46.287Z  error: insert or update on table "Contract" violates foreign key constraint "Contract_OrderId_fkey"
+2025-01-18T12:52:24.604Z  error: insert or update on table "Contract" violates foreign key constraint "Contract_OrderId_fkey"
+2025-01-18T12:52:33.019Z  error: insert or update on table "Contract" violates foreign key constraint "Contract_OrderId_fkey"
+2025-01-18T12:53:55.735Z  error: "order_date" is not allowed
+2025-01-18T12:55:40.037Z  error: "order_date" is not allowed
+2025-01-18T12:56:47.457Z  error: "order_date" is not allowed
+2025-01-18T12:58:11.324Z  error: "order_date" is not allowed
+2025-01-18T13:01:03.581Z  error: "order_date" is not allowed
+2025-01-18T13:02:34.625Z  error: "order_date" is not allowed
+2025-01-18T13:07:24.474Z  error: "order_date" is not allowed
+2025-01-18T13:07:58.265Z  error: "order_date" is not allowed
+2025-01-18T13:08:31.916Z  error: "order_date" is not allowed
+2025-01-18T13:09:37.829Z  error: "initial_payment" is not allowed
+2025-01-18T13:24:06.402Z  error: "product_id" is not allowed
+2025-01-18T13:24:15.533Z  error: "product_id" is not allowed
+2025-01-18T13:24:23.941Z  error: "product_id" is not allowed
+2025-01-18T13:25:35.347Z  error: "product_id" is not allowed
+2025-01-18T13:34:02.859Z  error: "product_id" is required
+2025-01-18T13:44:39.917Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T13:45:50.531Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:01:06.734Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:03:21.911Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:03:51.020Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:07:36.075Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-19T13:03:48.510Z  error: validationError is not defined

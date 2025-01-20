@@ -1,10 +1,11 @@
 const { errorHandler } = require('../helpers/error_handler');
 const Product = require('../models/product');
+const ProductDetail = require('../models/productdetail'); 
 
 const createProduct = async (req, res) => {
     try {
         const product = await Product.create(req.body);
-        res.status(201).json({
+        res.status(201).send({
             message: 'Mahsulot muvaffaqiyatli yaratildi',
             product
         });
@@ -15,8 +16,10 @@ const createProduct = async (req, res) => {
 
 const getAllProducts = async (req, res) => {
     try {
-        const products = await Product.findAll();
-        res.json(products);
+        const products = await Product.findAll({
+            include: [ProductDetail]
+        });
+        res.send(products);
     } catch (error) {
         errorHandler(error, res);
     }
@@ -24,11 +27,13 @@ const getAllProducts = async (req, res) => {
 
 const getProductById = async (req, res) => {
     try {
-        const product = await Product.findByPk(req.params.id);
+        const product = await Product.findByPk(req.params.id, {
+            include: [ProductDetail] 
+        });
         if (!product) {
             return res.status(404).json({ message: 'Mahsulot topilmadi' });
         }
-        res.json(product);
+        res.send(product);
     } catch (error) {
         errorHandler(error, res);
     }
@@ -41,7 +46,7 @@ const updateProduct = async (req, res) => {
             return res.status(404).json({ message: 'Mahsulot topilmadi' });
         }
         const updatedProduct = await product.update(req.body);
-        res.json({
+        res.send({
             message: 'Mahsulot muvaffaqiyatli yangilandi',
             updatedProduct
         });
@@ -57,7 +62,7 @@ const deleteProduct = async (req, res) => {
             return res.status(404).json({ message: 'Mahsulot topilmadi' });
         }
         await product.destroy();
-        res.json({
+        res.send({
             message: 'Mahsulot muvaffaqiyatli o\'chirilgan'
         });
     } catch (error) {

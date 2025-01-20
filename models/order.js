@@ -1,8 +1,8 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/db');
-const Customer = require('./customers'); 
-const Seller = require('./seller');     
-const Product = require('./product');   
+const Customer = require('./customers');
+const Seller = require('./seller');
+const Product = require('./product');
 
 const Order = sequelize.define('Order', {
     id: {
@@ -12,7 +12,7 @@ const Order = sequelize.define('Order', {
     },
     order_date: {
         type: DataTypes.DATE,
-        allowNull: false
+        allowNull: false, 
     },
     total_amount: {
         type: DataTypes.DECIMAL(10, 2),
@@ -57,7 +57,8 @@ const Order = sequelize.define('Order', {
         defaultValue: DataTypes.NOW
     }
 }, {
-    freezeTableName: true
+    freezeTableName: true,
+    timestamps: false
 });
 
 module.exports = Order;

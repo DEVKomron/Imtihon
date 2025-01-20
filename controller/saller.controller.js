@@ -81,7 +81,7 @@ const refreshToken = (req, res) => {
             }
 
             const newToken = jwt.sign({ id: decoded.id, role: decoded.role }, config.JWT_SECRET, { expiresIn: '1h' });
-            res.json({ token: newToken });
+            res.send({ token: newToken });
         });
     } catch (error) {
         errorHandler(error, res);
@@ -91,8 +91,8 @@ const refreshToken = (req, res) => {
 const getSellerById = async (req, res, next) => {
   try {
     const seller = await Seller.findByPk(req.params.id);
-    if (!seller) return res.status(404).json({ message: 'Seller not found' });
-    res.status(200).json(seller);
+    if (!seller) return res.status(404).send({ message: 'Seller not found' });
+    res.status(200).send(seller);
   } catch (error) {
     errorHandler(error, res)
 
@@ -102,7 +102,7 @@ const getSellerById = async (req, res, next) => {
 const getAllSellers = async (req, res, next) => {
   try {
     const sellers = await Seller.findAll();
-    res.status(200).json(sellers);
+    res.status(200).send(sellers);
   } catch (error) {
     errorHandler(error, res)
 
@@ -113,9 +113,12 @@ const getAllSellers = async (req, res, next) => {
 const updateSeller = async (req, res, next) => {
   try {
     const seller = await Seller.findByPk(req.params.id);
-    if (!seller) return res.status(404).json({ message: 'Seller not found' });
+    if (!seller) return res.status(404).send({ message: 'Seller not found' });
+
     await seller.update(req.body);
-    res.status(200).json(seller);
+    
+    res.status(200).send(seller);
+
   } catch (error) {
     errorHandler(error, res)
 
@@ -126,10 +129,15 @@ const updateSeller = async (req, res, next) => {
 const deleteSeller = async (req, res, next) => {
   try {
     const seller = await Seller.findByPk(req.params.id);
-    if (!seller) return res.status(404).json({ message: 'Seller not found' });
-    await seller.destroy();
-    res.status(204).send();
-  } catch (error) {
+
+    
+  if (!seller) return res.status(404).send({ message: 'Seller not found' });
+  
+  await seller.destroy();
+  
+  res.status(204).send();
+  
+} catch (error) {
     errorHandler(error, res)
 
     

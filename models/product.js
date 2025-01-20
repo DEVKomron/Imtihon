@@ -26,12 +26,13 @@ const Product = sequelize.define('Product', {
     brand: {
         type: DataTypes.STRING
     },
-    created_at: {
+    created_at: {   
         type: DataTypes.DATE,
         defaultValue: DataTypes.NOW
     }
 },{
-    freezeTableName :true
+    freezeTableName :true,
+    timestamps: false 
   });
 
 

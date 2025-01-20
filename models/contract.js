@@ -29,7 +29,7 @@ const Contract = sequelize.define('Contract', {
     },
     payment_method: {
         type: DataTypes.STRING,
-        allowNull: false 
+        allowNull: true
     },
     contract_status: {
         type: DataTypes.STRING,
@@ -43,7 +43,17 @@ const Contract = sequelize.define('Contract', {
         type: DataTypes.DATE,
         allowNull: false,
         defaultValue: DataTypes.NOW
-    },
+    },  
+    OrderId: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        references: {
+          model: 'Order', // Model nomi
+          key: 'id',      // Asosiy kalit ustuni
+        },
+        onUpdate: 'CASCADE',
+        onDelete: 'SET NULL',
+      },
     updated_at: {
         type: DataTypes.DATE,
         allowNull: false,

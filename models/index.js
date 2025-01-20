@@ -19,8 +19,8 @@ Customer.hasMany(Order);
 Order.belongsTo(Customer);
 
 // Seller va Order o'rtasidagi bog'lanish
-Seller.hasMany(Order, { foreignKey: 'seller_id', as: 'order' });  
-Order.belongsTo(Seller, { foreignKey: 'seller_id', as: 'seller' });
+Seller.hasMany(Order);  
+Order.belongsTo(Seller);
 
 // Seller va Contract o'rtasidagi bog'lanish
 Seller.hasMany(Contract);
@@ -53,6 +53,7 @@ OrderItem.belongsTo(Product);
 // Contract va Payment o'rtasidagi bog'lanish
 Contract.hasMany(Payment);
 Payment.belongsTo(Contract);
+
 
 module.exports = {
     Admin,

@@ -1,13 +1,34 @@
 const { errorHandler } = require('../helpers/error_handler');
 const ProductDetail = require('../models/productdetail');
+const Product = require('../models/product'); // Product modelini import qilish
 
 // Create a new ProductDetail
 const createProductDetail = async (req, res) => {
     try {
-        const product = await ProductDetail.create(req.body);
+        const { product_id, full_description, specifications, manufacturer, warranty_terms, dimensions, material, color, category } = req.body;
+
+        // Product mavjudligini tekshirish
+        const product = await Product.findByPk(product_id);
+        if (!product) {
+            return res.status(404).json({ message: 'Mahsulot topilmadi' });
+        }
+
+        // ProductDetail yaratish
+        const productDetail = await ProductDetail.create({
+            full_description,
+            specifications,
+            manufacturer,
+            warranty_terms,
+            dimensions,
+            material,
+            color,
+            category,
+            product_id  // to'g'ri bog'lanish
+        });
+
         res.status(201).json({
             message: 'Mahsulot muvaffaqiyatli yaratildi',
-            product
+            productDetail
         });
     } catch (error) {
         errorHandler(error, res);
@@ -17,8 +38,10 @@ const createProductDetail = async (req, res) => {
 // Get all ProductDetails
 const getAllProductDetails = async (req, res) => {
     try {
-        const products = await ProductDetail.findAll();
-        res.json(products);
+        const productDetails = await ProductDetail.findAll({
+            include: Product // Product bilan bog'lanish
+        });
+        res.json(productDetails);
     } catch (error) {
         errorHandler(error, res);
     }
@@ -27,11 +50,15 @@ const getAllProductDetails = async (req, res) => {
 // Get a ProductDetail by ID
 const getProductDetailById = async (req, res) => {
     try {
-        const product = await ProductDetail.findByPk(req.params.id);
-        if (!product) {
+        const productDetail = await ProductDetail.findByPk(req.params.id, {
+            include: Product // Product bilan bog'lanish
+        });
+
+        if (!productDetail) {
             return res.status(404).json({ message: 'Mahsulot topilmadi' });
         }
-        res.json(product);
+
+        res.json(productDetail);
     } catch (error) {
         errorHandler(error, res);
     }
@@ -40,15 +67,15 @@ const getProductDetailById = async (req, res) => {
 // Update a ProductDetail by ID
 const updateProductDetail = async (req, res) => {
     try {
-        const product = await ProductDetail.findByPk(req.params.id);
-        if (!product) {
+        const productDetail = await ProductDetail.findByPk(req.params.id);
+        if (!productDetail) {
             return res.status(404).json({ message: 'Mahsulot topilmadi' });
         }
 
-        await product.update(req.body);
+        await productDetail.update(req.body);
         res.json({
             message: 'Mahsulot muvaffaqiyatli yangilandi',
-            product
+            productDetail
         });
     } catch (error) {
         errorHandler(error, res);
@@ -58,12 +85,12 @@ const updateProductDetail = async (req, res) => {
 // Delete a ProductDetail by ID
 const deleteProductDetail = async (req, res) => {
     try {
-        const product = await ProductDetail.findByPk(req.params.id);
-        if (!product) {
+        const productDetail = await ProductDetail.findByPk(req.params.id);
+        if (!productDetail) {
             return res.status(404).json({ message: 'Mahsulot topilmadi' });
         }
 
-        await product.destroy();
+        await productDetail.destroy();
         res.json({ message: 'Mahsulot muvaffaqiyatli o‘chirildi' });
     } catch (error) {
         errorHandler(error, res);

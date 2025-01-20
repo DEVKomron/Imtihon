@@ -1251,3 +1251,634 @@ ReferenceError: OrderRouter is not defined
     at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
     at Module._compile (node:internal/modules/cjs/loader:1364:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-18T12:40:38.361Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:43:39.948Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:43:47.003Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:46:22.822Z  error: notNull Violation: Contract.payment_method cannot be null
+2025-01-18T12:47:46.287Z  error: insert or update on table "Contract" violates foreign key constraint "Contract_OrderId_fkey"
+2025-01-18T12:52:24.604Z  error: insert or update on table "Contract" violates foreign key constraint "Contract_OrderId_fkey"
+2025-01-18T12:52:33.019Z  error: insert or update on table "Contract" violates foreign key constraint "Contract_OrderId_fkey"
+2025-01-18T12:53:55.735Z  error: "order_date" is not allowed
+2025-01-18T12:55:40.037Z  error: "order_date" is not allowed
+2025-01-18T12:56:47.457Z  error: "order_date" is not allowed
+2025-01-18T12:58:11.324Z  error: "order_date" is not allowed
+2025-01-18T13:01:03.581Z  error: "order_date" is not allowed
+2025-01-18T13:02:34.625Z  error: "order_date" is not allowed
+2025-01-18T13:07:24.474Z  error: "order_date" is not allowed
+2025-01-18T13:07:58.265Z  error: "order_date" is not allowed
+2025-01-18T13:08:31.916Z  error: "order_date" is not allowed
+2025-01-18T13:09:37.829Z  error: "initial_payment" is not allowed
+2025-01-18T13:24:06.402Z  error: "product_id" is not allowed
+2025-01-18T13:24:15.533Z  error: "product_id" is not allowed
+2025-01-18T13:24:23.941Z  error: "product_id" is not allowed
+2025-01-18T13:25:35.347Z  error: "product_id" is not allowed
+2025-01-18T13:33:21.035Z  error: uncaughtException: Unexpected token '('
+/home/komron/Desktop/Imtihon/controller/order.controller.js:17
+        const { error } = orderSchema.(req.body);
+                                      ^
+
+SyntaxError: Unexpected token '('
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Order.routes.js:1:53)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-18T13:34:02.859Z  error: "product_id" is required
+2025-01-18T13:42:26.463Z  error: uncaughtException: Cannot find module './product'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/productdetail.controller.js
+- /home/komron/Desktop/Imtihon/router/Productdetail.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+Error: Cannot find module './product'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/productdetail.controller.js
+- /home/komron/Desktop/Imtihon/router/Productdetail.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/productdetail.controller.js:3:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-01-18T13:44:39.917Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T13:45:50.531Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T13:51:49.463Z  error: uncaughtException: OrderRouter is not defined
+ReferenceError: OrderRouter is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:15:26)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/app.js:4:20)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-18T14:01:06.734Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:03:21.911Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:03:51.020Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:07:36.075Z  error: notNull Violation: Product.name cannot be null,
+notNull Violation: Product.price cannot be null
+2025-01-18T14:14:54.076Z  error: uncaughtException: Cannot find module '../models/productDetail'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/product.controller.js
+- /home/komron/Desktop/Imtihon/router/Product.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+Error: Cannot find module '../models/productDetail'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/product.controller.js
+- /home/komron/Desktop/Imtihon/router/Product.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/product.controller.js:3:23)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-01-18T14:15:12.459Z  error: uncaughtException: missing ) after argument list
+/home/komron/Desktop/Imtihon/controller/product.controller.js:3
+const ProductDetail = require('../models/\');  // ProductDetail modelini qo'shish
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Product.routes.js:1:89)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T10:17:39.881Z  error: uncaughtException: Unexpected identifier
+/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:21
+        res.status()send(orderItems);
+                    ^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:65)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T10:17:56.496Z  error: uncaughtException: Unexpected identifier
+/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:35
+        res.status()send(orderItem);
+                    ^^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:65)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T10:27:24.837Z  error: uncaughtException: Unexpected token ','
+/home/komron/Desktop/Imtihon/router/Order.routes.js:5
+OrderRouter.post("/create",,createOrder);
+                           ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:5:21)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T10:27:27.635Z  error: uncaughtException: Orde is not defined
+ReferenceError: Orde is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/Order.routes.js:5:28)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:5:21)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:43:19.694Z  error: uncaughtException: You have used the alias orders in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias orders in two separate associations. Aliased associations must have unique aliases.
+    at new Association (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/base.js:13:13)
+    at new HasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/has-many.js:28:5)
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:22:25)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:58:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-01-19T12:43:25.929Z  error: uncaughtException: You have used the alias seller in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias seller in two separate associations. Aliased associations must have unique aliases.
+    at new Association (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/base.js:13:13)
+    at new BelongsTo (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/belongs-to.js:25:5)
+    at Order.<anonymous> (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:70:25)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:59:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-01-19T12:44:00.236Z  error: uncaughtException: You have used the alias orders in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias orders in two separate associations. Aliased associations must have unique aliases.
+    at new Association (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/base.js:13:13)
+    at new HasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/has-many.js:28:5)
+    at Seller.hasMany (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:22:25)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:58:8)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-01-19T12:44:06.117Z  error: uncaughtException: You have used the alias seller in two separate associations. Aliased associations must have unique aliases.
+SequelizeAssociationError: You have used the alias seller in two separate associations. Aliased associations must have unique aliases.
+    at new Association (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/base.js:13:13)
+    at new BelongsTo (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/belongs-to.js:25:5)
+    at Order.<anonymous> (/home/komron/Desktop/Imtihon/node_modules/sequelize/lib/associations/mixin.js:70:25)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/models/index.js:59:7)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-01-19T12:51:17.955Z  error: uncaughtException: Unexpected token 'const'
+/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:9
+const createOrderItem = async (req, res) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:99)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:51:20.081Z  error: uncaughtException: Unexpected token 'const'
+/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:9
+const createOrderItem = async (req, res) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:99)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:51:21.311Z  error: uncaughtException: Missing initializer in const declaration
+/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:3
+const va
+      ^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:99)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:51:23.685Z  error: uncaughtException: Missing initializer in const declaration
+/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:3
+const validateOrderItemData
+      ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:99)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:51:25.167Z  error: uncaughtException: Unexpected token 'const'
+/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:9
+const createOrderItem = async (req, res) => {
+^^^^^
+
+SyntaxError: Unexpected token 'const'
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:99)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:51:26.832Z  error: uncaughtException: requ is not defined
+ReferenceError: requ is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:3:31)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:1:99)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:51:30.599Z  error: uncaughtException: The argument 'id' must be a non-empty string. Received ''
+TypeError [ERR_INVALID_ARG_VALUE]: The argument 'id' must be a non-empty string. Received ''
+    at new NodeError (node:internal/errors:405:5)
+    at Module.require (node:internal/modules/cjs/loader:1226:11)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:3:31)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+2025-01-19T12:51:40.491Z  error: uncaughtException: Cannot find module '../validation'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/orderItem.controller.js
+- /home/komron/Desktop/Imtihon/router/OrderItems.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+Error: Cannot find module '../validation'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/orderItem.controller.js
+- /home/komron/Desktop/Imtihon/router/OrderItems.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:3:31)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-01-19T12:51:41.711Z  error: uncaughtException: Cannot find module '../validation/'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/orderItem.controller.js
+- /home/komron/Desktop/Imtihon/router/OrderItems.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+Error: Cannot find module '../validation/'
+Require stack:
+- /home/komron/Desktop/Imtihon/controller/orderItem.controller.js
+- /home/komron/Desktop/Imtihon/router/OrderItems.routes.js
+- /home/komron/Desktop/Imtihon/router/index.routes.js
+- /home/komron/Desktop/Imtihon/app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1140:15)
+    at Module._load (node:internal/modules/cjs/loader:981:27)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/controller/orderItem.controller.js:3:31)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+2025-01-19T12:52:48.075Z  error: uncaughtException: Unexpected token ','
+/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:5
+OrderitemRouter.post("/create",,createOrderItem);
+                               ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:52:49.506Z  error: uncaughtException: Unexpected token ','
+/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6
+OrderitemRouter.post("/create",,createOrderItem);
+                               ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:52:55.759Z  error: uncaughtException: Unexpected token ','
+/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:5
+OrderitemRouter.post("/create",,createOrderItem);
+                               ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:52:58.690Z  error: uncaughtException: vali is not defined
+ReferenceError: vali is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:5:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:53:00.054Z  error: uncaughtException: validateOrderItemData is not defined
+ReferenceError: validateOrderItemData is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:5:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:53:01.224Z  error: uncaughtException: validateOrderItemData is not defined
+ReferenceError: validateOrderItemData is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:5:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:53:02.682Z  error: uncaughtException: validateOrderItemData is not defined
+ReferenceError: validateOrderItemData is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:5:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:53:05.235Z  error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+2025-01-19T12:53:08.780Z  error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+2025-01-19T12:53:10.199Z  error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+2025-01-19T12:53:33.947Z  error: uncaughtException: Unexpected token ','
+/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:9
+OrderitemRouter.put("/:id",,updateOrderItem);
+                           ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:53:36.492Z  error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+2025-01-19T12:59:23.546Z  error: uncaughtException: Unexpected token ','
+/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:9
+OrderitemRouter.put("/:id",,updateOrderItem);
+                           ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:59:29.240Z  error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+2025-01-19T12:59:50.081Z  error: uncaughtException: missing ) after argument list
+/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:10
+}
+^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:76:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1283:20)
+    at Module._compile (node:internal/modules/cjs/loader:1328:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+2025-01-19T12:59:54.823Z  error: uncaughtException: valcreateOrderItem is not defined
+ReferenceError: valcreateOrderItem is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:59:55.728Z  error: uncaughtException: validateOrderItemDatacreateOrderItem is not defined
+ReferenceError: validateOrderItemDatacreateOrderItem is not defined
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T12:59:57.778Z  error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/route.js:216:15)
+    at proto.<computed> [as post] (/home/komron/Desktop/Imtihon/node_modules/express/lib/router/index.js:521:19)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:17)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+2025-01-19T12:59:59.567Z  error: uncaughtException: validateOrderItemData is not a function
+TypeError: validateOrderItemData is not a function
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/OrderItems.routes.js:6:32)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+    at Object.<anonymous> (/home/komron/Desktop/Imtihon/router/index.routes.js:6:25)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+2025-01-19T13:03:48.510Z  error: validationError is not defined

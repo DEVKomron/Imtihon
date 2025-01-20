@@ -16,7 +16,6 @@ const createOrder = async (req, res) => {
     try {
         const { customer_id, seller_id, total_amount, installment_period, product_id } = req.body;
 
-        // Mijoz mavjudligini tekshirish
         const customer = await Customer.findByPk(customer_id);
         if (!customer) {
             return errorHandler({ message: 'Mijoz topilmadi' }, res);

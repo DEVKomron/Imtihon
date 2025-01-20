@@ -8,16 +8,13 @@ const registerCustomer = async (req, res) => {
     try {
         const { full_name, phone_number, address, passport_data, email, password } = req.body;
 
-        // Email mavjudligini tekshirish
         const existingCustomer = await Customer.findOne({ where: { email } });
         if (existingCustomer) {
             return res.status(400).send({ message: 'Email allaqachon ro\'yxatdan o\'tgan' });
         }
 
-        // Parolni xesh qilish
         const hashedPassword = await bcrypt.hash(password, 10);
 
-        // Mijoz yaratish
         const customer = await Customer.create({
             full_name,
             phone_number,

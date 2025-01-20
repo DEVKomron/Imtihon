@@ -2,7 +2,6 @@ const { errorHandler } = require('../helpers/error_handler');
 const { Seller } = require('../models/index')
 const Contract = require('../models/contract');
 
-// Create - Yangi shartnoma yaratish
 const createContract = async (req, res) => {
     try {
         const {
@@ -44,7 +43,6 @@ const createContract = async (req, res) => {
     }
 };
 
-// Read - Barcha shartnomalarni olish
 const getAllContracts = async (req, res) => {
     try {
         const contracts = await Contract.findAll(
@@ -58,7 +56,6 @@ const getAllContracts = async (req, res) => {
     }
 };
 
-// Read - ID orqali bitta shartnomani olish
 const getContractById = async (req, res) => {
     try {
         const contract = await Contract.findByPk(req.params.id);
@@ -71,7 +68,6 @@ const getContractById = async (req, res) => {
     }
 };
 
-// Update - Shartnomani yangilash
 const updateContract = async (req, res) => {
     try {
         const { id } = req.params;
@@ -119,7 +115,6 @@ const updateContract = async (req, res) => {
     }
 };
 
-// Delete - Shartnomani o'chirish
 const deleteContract = async (req, res) => {
     try {
         const { id } = req.params;
